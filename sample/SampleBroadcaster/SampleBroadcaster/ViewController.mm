@@ -66,7 +66,7 @@
         case VCSessionStatePreviewStarted:
         case VCSessionStateEnded:
         case VCSessionStateError:
-            [_session startRtmpSessionWithURL:@"rtmp://192.168.1.151/live" andStreamKey:@"myStream"];
+            [_session startRtmpSessionWithURL:@"rtmp://sunnet:sunnet.sun@192.168.1.4/live" andStreamKey:@"myStream22"];
             break;
         default:
             [_session endRtmpSession];
